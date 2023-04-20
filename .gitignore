@@ -1,0 +1,5 @@
+*.log
+*.txt
+/proxy
+/data
+/data2
