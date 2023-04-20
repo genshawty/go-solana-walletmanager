@@ -1,0 +1,28 @@
+ссылка в эксплорере:
+https://explorer.solana.com/tx/kA2H4LdTq9epB3XUPzzXzFFE8VNtQBbVifG8bUAM9a3GqBNDa7fXaygVUg3F3CDurG6fKa94QbNALM4322nACZb?cluster=devnet
+
+кошель с которого идет минт: 4XhW8aw4mRbEck4CWDWzjTzeMttqSEE8ph6wzQeQmKWe
+айди кэндимашины: 61CCEcc5LZCp9RJ2yPhmABHno3fPLKK6Lbxrpvqdj5Bu
+
+эти два адреса вот тут: https://solscan.io/account/4XhW8aw4mRbEck4CWDWzjTzeMttqSEE8ph6wzQeQmKWe?cluster=devnet#tokenAccounts
+mint address НФТ: GSKj5iEGjCNtpmGctNnQHWjrjVhMn2wC6KHrjZQDzeKb
+token account: FVgbhBSvXWupsCxVG6FyjL64PkzbTWNYrmQdVuXaRTXx
+
+
+1) Create account
+Необходимая инструкция, чтобы создать токен аккаунт, в котором будет потом храниться наша нфт, адрес которой называется mint address
+
+2) Initialize mint
+По всей видимости, инструкция, необходимая для того, чтобы подготовить созданный ранее аккаунт к минту
+
+3) Crate associated token account
+Создание mint address в который мы потом положим нфт
+
+4) Mint to
+Опять же какая то побочная инструкия, просто необходимая
+
+5) CM: Mint Nft
+Инструкция, создаваемая из папки /candy_machine, сгенерирована из Idl, которое лежит в опенсорсе кэндимашины
+
+6) Set Collection During Mint
+Надо погуглить че делает, но ощущение будто в каких то случаях инструкция может быть пропущена

@@ -1,5 +1,10 @@
 *.log
-*.txt
+wallet.txt
+names.txt
+walletmanager/tx.txt
 /proxy
-/data
+data/devwallets.csv
+data/used_wallets.csv
+data/used_wallets.json
+data/wallets.csv
 /data2
